@@ -36,7 +36,7 @@ declare namespace Kalendae {
         direction?: 'any' | 'past' | 'today-past' | 'today-future' | 'future';
         directionScrolling?: boolean;
         viewStartDate?: string;
-        blackout?: string[];
+        blackout?: string[] | ((input: moment.Moment) => boolean);
         selected?: KalendaeDate | (KalendaeDate)[];
         mode?: 'single' | 'multiple' | 'range';
         dayOutOfMonthClickable?: boolean;
