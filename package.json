@@ -32,6 +32,7 @@
     "readme.md"
   ],
   "homepage": "https://github.com/Twipped/Kalendae",
+  "types": "types/kalendae.d.ts",
   "devDependencies": {
     "uglify-js": "~3.7.4"
   },
