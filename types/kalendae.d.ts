@@ -1,5 +1,3 @@
-/// <reference types="jquery" />
-
 import * as moment from 'moment';
 export as namespace Kalendae;
 export = Kalendae;
