@@ -52,9 +52,3 @@ declare namespace Kalendae {
         dateClassMap?: { [date: string]: string; }
     }
 }
-
-interface JQuery {
-    kalendae(options?: Kalendae.KalandaeOptions): JQuery;
-    data(key: 'kalendae'): Kalendae;
-}
-
